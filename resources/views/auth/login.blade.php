@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <!-- Try code start-->
-        <section class="home-section section-hero overlay bg-image" style="background-image: url('{{asset("assets/images/hero_1.jpg")}}');" id="home-section">
+        <section class="home-section section-hero overlay bg-image" style="background-image: url('{{asset("assets/images/Nature.jpg")}}');" id="home-section">
 
           <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -14,6 +14,7 @@
                   <h1 class="text-white font-weight-bold">The Easiest Way To Get Your Dream Job</h1>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est, consequuntur perferendis.</p>
                 </div>
+<!--
                 <form method="post" class="search-jobs-form">
                   <div class="row mb-5">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
@@ -53,6 +54,7 @@
                     </div>
                   </div>
                 </form>
+-->
               </div>
             </div>
           </div>
@@ -62,7 +64,7 @@
           </a>
     
         </section>
-        
+         <!--
         <section class="py-5 bg-image overlay-primary fixed overlay" id="next" style="background-image: url('{{asset('assets/images/apps.png')}}');">
           <div class="container">
             <div class="row mb-5 justify-content-center">
@@ -71,6 +73,7 @@
                 <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde officiis recusandae sequi excepturi corrupti.</p>
               </div>
             </div>
+           
             <div class="row pb-0 block__19738 section-counter">
     
               <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
@@ -103,6 +106,7 @@
     
                 
             </div>
+            -->
           </div>
         </section>
     
@@ -113,7 +117,7 @@
     
             <div class="row mb-5 justify-content-center">
               <div class="col-md-7 text-center">
-                <h2 class="section-title mb-2">43,167 Job Listed</h2>
+                <h2 class="section-title mb-2">Listed Jobs</h2>
               </div>
             </div>
             
@@ -130,7 +134,7 @@
                     <strong>Adidas</strong>
                   </div>
                   <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                    <span class="icon-room"></span> New York, New York
+                    
                   </div>
                   <div class="job-listing-meta">
                     <span class="badge badge-danger">Part Time</span>
@@ -150,7 +154,7 @@
                     <strong>Sprint</strong>
                   </div>
                   <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                    <span class="icon-room"></span> Overland Park, Kansas 
+                    
                   </div>
                   <div class="job-listing-meta">
                     <span class="badge badge-success">Full Time</span>
@@ -170,7 +174,7 @@
                     <strong>Amazon</strong>
                   </div>
                   <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                    <span class="icon-room"></span> Overland Park, Kansas 
+                    
                   </div>
                   <div class="job-listing-meta">
                     <span class="badge badge-success">Full Time</span>
@@ -190,7 +194,7 @@
                     <strong>Microsoft</strong>
                   </div>
                   <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                    <span class="icon-room"></span> Anywhere 
+                   
                   </div>
                   <div class="job-listing-meta">
                     <span class="badge badge-success">Full Time</span>
@@ -210,7 +214,7 @@
                     <strong>Puma</strong>
                   </div>
                   <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                    <span class="icon-room"></span> San Mateo, CA 
+                    
                   </div>
                   <div class="job-listing-meta">
                     <span class="badge badge-success">Full Time</span>
@@ -229,7 +233,7 @@
                     <strong>Adidas</strong>
                   </div>
                   <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                    <span class="icon-room"></span> New York, New York
+                   
                   </div>
                   <div class="job-listing-meta">
                     <span class="badge badge-danger">Part Time</span>
@@ -249,7 +253,7 @@
                     <strong>Sprint</strong>
                   </div>
                   <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
-                    <span class="icon-room"></span> Overland Park, Kansas 
+                    
                   </div>
                   <div class="job-listing-meta">
                     <span class="badge badge-success">Full Time</span>
@@ -297,7 +301,7 @@
           </div>
         </section>
     
-        
+        <!--
         <section class="site-section py-4">
           <div class="container">
       
@@ -339,8 +343,8 @@
             </div>
           </div>
         </section>
-    
-    
+    -->
+    <!--
         <section class="bg-light pt-5 testimony-full">
             
             <div class="owl-carousel single-carousel">
@@ -377,7 +381,7 @@
           </div>
     
         </section>
-    
+    -->
         <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('{{asset("assets/images/job_logo_1.jpg")}}');">
           <div class="container">
             <div class="row">

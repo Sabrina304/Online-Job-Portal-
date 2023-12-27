@@ -35,11 +35,12 @@
     <header class="site-navbar mt-3">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="site-logo col-6"><a href="{{ url('/') }}">JobBoard</a></div>
+          <!--  <div class="site-logo col-6"><a href="{{ url('') }}"><img src="{{asset("assets/images/logo.png")}}"></a></div> -->
   
-            <nav class="mx-auto site-navigation">
+            <nav class="mx-auto site-navigation navbar-light bg-light">
               <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-                <li style="padding-left:544px;"><a href="index.html" class="nav-link active">Home</a></li>
+                <li style="padding-left:30px; "><a href="{{ url('') }}"><img src="{{asset("assets/images/abc.png")}}"></a></li>
+                <li style="padding-left:344px;"><a href="index.html" class="nav-link active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li class="has-children">
                   <a href="job-listings.html">Job Listings</a>
@@ -66,10 +67,10 @@
                 <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
                 @guest
                     @if (Route::has('login'))
-                      <li class="d-lg-none"><a href="login.html">Log In</a></li>
+                      <li class=""><a href="{{ route('login') }}">Log In</a></li>
                     @endif
                     @if (Route::has('register'))
-                      <li class="d-lg-none"><a href="register.html">Register</a></li>
+                      <li class=""><a href="{{ route('register') }} ">Register</a></li>
                     @endif
                 @else
                     <li class="nav-item dropdown">
