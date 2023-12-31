@@ -381,7 +381,7 @@
           </div>
     
         </section>
-    -->
+  
         <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('{{asset("assets/images/job_logo_1.jpg")}}');">
           <div class="container">
             <div class="row">
@@ -399,10 +399,41 @@
             </div>
           </div>
         </section>
-
+  -->
         <!--Try code end-->
 
-        <div class="col-md-8">
+        <div class="col-md-12">
+          <form style="margin:20px;" action="{{ route('login') }}" method="POST" class="p-4 border rounded">
+            @csrf
+
+            <div class="row form-group">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <label class="text-black" for="fname">Email</label>
+                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                @error('email')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+            @enderror
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-md-12 mb-3 mb-md-0">
+                <label class="text-black" for="fname">Password</label>
+                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                
+              </div>
+            </div>
+           
+
+            <div class="row form-group">
+              <div class="col-md-12">
+                <input type="submit" name="submit" value="Log In" class="btn px-4 btn-primary text-white">
+              </div>
+            </div>
+
+          </form>
+          <!--
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
@@ -465,7 +496,8 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> 
+          -->
         </div>
     </div>
 </div>
